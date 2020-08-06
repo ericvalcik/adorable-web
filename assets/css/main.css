@@ -1,0 +1,26 @@
+.main {
+    height: 100vh;
+    background-color: rgb(238, 238, 238);
+    text-align: center;
+}
+
+.aligner {
+    display: inline-block;
+    height: 45%;
+    vertical-align: center;
+}
+
+img.logo {
+    vertical-align: middle;
+    width: 30%;
+    min-width: 400px;
+    -webkit-filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, 0.178))
+    drop-shadow(-1px -1px 0 rgba(0, 0, 0, 0.178));
+    filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, 0.178)) 
+    drop-shadow(-1px -1px 0 rgba(0, 0, 0, 0.178));
+  }
+
+img.logo:hover {
+    width: 35%;
+    min-width: 450px;
+}
