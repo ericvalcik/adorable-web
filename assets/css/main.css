@@ -4,6 +4,10 @@
     text-align: center;
 }
 
+h1 {
+    font-weight: bold;
+}
+
 .aligner {
     display: inline-block;
     height: 45%;
