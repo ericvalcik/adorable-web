@@ -14,13 +14,10 @@ img.logo {
     vertical-align: middle;
     width: 30%;
     min-width: 400px;
-    -webkit-filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, 0.178))
-    drop-shadow(-1px -1px 0 rgba(0, 0, 0, 0.178));
-    filter: drop-shadow(3px 3px 0 rgba(0, 0, 0, 0.178)) 
-    drop-shadow(-1px -1px 0 rgba(0, 0, 0, 0.178));
+    transition: transform .2s;
+    filter: drop-shadow(0 0 0.4rem rgb(165, 165, 165));
   }
 
 img.logo:hover {
-    width: 35%;
-    min-width: 450px;
+    transform: scale(1.2);
 }
