@@ -6,6 +6,8 @@
 
 h1 {
     font-weight: bold;
+    font-size: 3.5vw;
+    color: rgb(48, 48, 48);
 }
 
 .aligner {
@@ -17,7 +19,6 @@ h1 {
 img.logo {
     vertical-align: middle;
     width: 30%;
-    min-width: 400px;
     transition: transform .2s;
     filter: drop-shadow(0 0 0.4rem rgb(165, 165, 165));
   }
