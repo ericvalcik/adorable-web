@@ -1,27 +1,38 @@
+#backgroundVideo {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.55;
+  }
+
 .main {
     height: 100vh;
-    background-color: rgb(238, 238, 238);
-    text-align: center;
+    background-color: rgb(0, 0, 0);
+    text-align: right;
 }
 
 h1 {
+    position: absolute;
+    bottom: 10vh;
+    right: 10vh;
     font-weight: bold;
     font-size: 3.5vw;
-    color: rgb(48, 48, 48);
-}
-
-.aligner {
-    display: inline-block;
-    height: 45%;
-    vertical-align: center;
+    color: rgb(248, 255, 184);
+    float: right;
 }
 
 img.logo {
-    vertical-align: middle;
-    width: 30%;
+    position: absolute;
+    bottom: 10vh;
+    left: 10vh;
+    width: 15%;
     transition: transform .2s;
-    filter: drop-shadow(0 0 0.4rem rgb(165, 165, 165));
-  }
+    filter: drop-shadow(0 0 0.4rem rgba(0, 0, 0, 0.35));
+    float: left;
+}
 
 img.logo:hover {
     transform: scale(1.2);
