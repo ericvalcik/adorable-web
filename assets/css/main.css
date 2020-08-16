@@ -19,14 +19,14 @@ h1 {
     bottom: 10vh;
     right: 10vh;
     font-weight: bold;
-    font-size: 3.5vw;
+    font-size: 4.5vw;
     color: rgb(248, 255, 184);
     float: right;
 }
 
 img.logo {
     position: absolute;
-    bottom: 10vh;
+    bottom: 11vh;
     left: 10vh;
     width: 15%;
     transition: transform .2s;
