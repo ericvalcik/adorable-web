@@ -25,7 +25,8 @@ h1 {
 img.logo {
     position: relative;
     top: 45vh;
-    width: 15%;
+    width: 20%;
+    min-width: 235px;
     transition: transform .2s;
     filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.45));
 }
