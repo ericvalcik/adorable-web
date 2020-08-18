@@ -22,6 +22,22 @@ h1 {
     color: rgb(246, 255, 167);
 }
 
+.right {
+    position: absolute;
+    bottom: 5vh;
+    right: 5vh;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgb(195, 199, 125);
+}
+
 img.logo {
     position: relative;
     top: 45vh;
