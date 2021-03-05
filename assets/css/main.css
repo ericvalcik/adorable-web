@@ -1,54 +1,6 @@
-#backgroundVideo {
-    position: fixed;
-    min-width: 100%;
-    min-height: 100%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    opacity: 0.25;
-  }
-
-.main {
-    height: 100vh;
-    background-color: rgb(141, 195, 216);
-    text-align: center;
-}
-
-.right {
-    position: absolute;
-    bottom: 5vh;
-    right: 5vh;
-}
-
-a {
-    color: gray;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: none;
-    color: rgb(195, 199, 125);
-}
-
-img.logo {
+.main .container {
     position: relative;
-    top: 50vh;
-    margin-top: -100px;
-    width: 35%;
-    min-width: 235px;
-    transition: transform .2s;
-}
-
-/* not used */
-img.logo-shadow {
-    position: relative;
-    top: 70vh;
-    width: 40%;
-    height: 40px;
-    min-width: 275px;
-    opacity: 0;
-}
-
-img.logo:hover {
-    transform: scale(1.2);
+    top: 10vh;
+    max-width: 400px;
+    margin-bottom: 150px;
 }
